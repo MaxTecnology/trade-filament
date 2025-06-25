@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Apenas as variáveis básicas da RedeTrade */
+:root {
+    --redetrade-primary: #8b5cf6;
+    --redetrade-secondary: #f97316;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+}
