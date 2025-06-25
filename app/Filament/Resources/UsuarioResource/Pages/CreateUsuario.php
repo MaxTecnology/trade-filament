@@ -8,4 +8,14 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateUsuario extends CreateRecord
 {
     protected static string $resource = UsuarioResource::class;
+
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('index');
+    }
+
+    protected function getCreatedNotificationTitle(): ?string
+    {
+        return 'Usuário criado com sucesso!';
+    }
 }

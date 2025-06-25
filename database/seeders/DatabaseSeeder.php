@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
             VoucherSeeder::class,
             TransacaoSeeder::class,
             CobrancaSeeder::class,
-            ShieldSeeder::class,
+            MarketplaceShieldSeeder::class,
         ]);
     }
 }
